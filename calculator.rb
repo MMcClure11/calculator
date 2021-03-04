@@ -20,4 +20,8 @@ class Calculator
     x % y
   end
 
+  def square(x)
+    x * x
+  end
+
 end

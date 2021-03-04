@@ -31,5 +31,11 @@ describe Calculator do
       expect(calc.modulo(15,5)).to eql(0)
       expect(calc.modulo(20,6)).to eql(2)
     end
+
+    it "can square the result of a number" do 
+      calc = Calculator.new 
+      expect(calc.square(2)).to eql(4)
+      expect(calc.square(-3)).to eql(9)
+    end
   end
 end
