@@ -24,4 +24,8 @@ class Calculator
     x * x
   end
 
+  def squareroot(x)
+    Math.sqrt(x).round()
+  end
+
 end

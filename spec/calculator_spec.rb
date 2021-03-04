@@ -37,5 +37,11 @@ describe Calculator do
       expect(calc.square(2)).to eql(4)
       expect(calc.square(-3)).to eql(9)
     end
+
+    it "can find the squareroot of a given number" do 
+      calc = Calculator.new 
+      expect(calc.squareroot(9)).to eql(3)
+      expect(calc.squareroot(100)).to eql(10)
+    end
   end
 end
