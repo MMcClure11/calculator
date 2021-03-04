@@ -43,5 +43,12 @@ describe Calculator do
       expect(calc.squareroot(9)).to eql(3)
       expect(calc.squareroot(100)).to eql(10)
     end
+
+    it "can find the factorial of a given number" do 
+      calc = Calculator.new 
+      expect(calc.factorial(3)).to eql(6)
+      expect(calc.factorial(5)).to eql(120)
+      expect(calc.factorial(4)).to eql(24)
+    end 
   end
 end

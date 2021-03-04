@@ -28,4 +28,13 @@ class Calculator
     Math.sqrt(x).round()
   end
 
+  def factorial(x)
+    result = 1
+    while (x > 0)
+      result = result * x
+      x -= 1
+    end
+    return result
+  end
+
 end
