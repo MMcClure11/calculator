@@ -11,5 +11,10 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.subtract(6,4)).to eql(2)
     end
+
+    it "can multiply the numbers using the multiply method" do 
+      calc = Calculator.new
+      expect(calc.multiply(3,4)).to eql(12)
+    end
   end
 end
