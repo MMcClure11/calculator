@@ -1,11 +1,7 @@
 class Calculator
 
   def add(x,y) 
-    if (x === 2)
-      5
-    else
-      10
-    end
+    x + y
   end
 
   def subtract(x,y)
