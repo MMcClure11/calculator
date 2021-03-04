@@ -26,6 +26,10 @@ describe Calculator do
       expect(@calc.divide(8,-4)).to eql(-2)
     end
 
+    it "gives a warning if try to divide by zero" do 
+      expect(@calc.divide(2,0)).to eql("You can't divide by zero!")
+    end
+
     it "can provide the remainder when dividing two numbers using the modulo method" do 
       expect(@calc.modulo(15,5)).to eql(0)
       expect(@calc.modulo(20,6)).to eql(2)

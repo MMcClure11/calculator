@@ -13,6 +13,9 @@ class Calculator
   end
 
   def divide(x,y)
+    if y == 0 
+     return "You can't divide by zero!"
+    end
     x / y
   end
 
