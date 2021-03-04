@@ -16,5 +16,10 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.multiply(3,4)).to eql(12)
     end
+
+    it "can divide the numbers using the divide method" do 
+      calc = Calculator.new 
+      expect(calc.divide(18,3)).to eql(6)
+    end
   end
 end
