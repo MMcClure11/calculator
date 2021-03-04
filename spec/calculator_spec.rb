@@ -1,4 +1,4 @@
-require './calculator.rb'
+require './lib/calculator.rb'
 
 describe Calculator do 
   before(:each) do 

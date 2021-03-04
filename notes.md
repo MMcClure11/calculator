@@ -14,3 +14,6 @@ calculator $ irb
  touch calculator_spec.rb
 
  rspec spec/calculator_spec.rb
+
+ how to run a file: ruby calculator.rb
+  ruby cli.rb
