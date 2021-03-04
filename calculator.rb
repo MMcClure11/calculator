@@ -5,19 +5,19 @@ class Calculator
   end
 
   def subtract(x,y)
-    2
+    x - y
   end
 
   def multiply(x,y)
-    12
+    x * y
   end
 
   def divide(x,y)
-    6
+    x / y
   end
 
   def modulo(x,y)
-    0
+    x % y
   end
 
 end
