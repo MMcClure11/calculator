@@ -16,4 +16,8 @@ class Calculator
     x / y
   end
 
+  def modulo(x,y)
+    x % y
+  end
+
 end

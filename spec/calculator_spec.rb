@@ -21,5 +21,10 @@ describe Calculator do
       calc = Calculator.new 
       expect(calc.divide(18,3)).to eql(6)
     end
+
+    it "can provide the remainder when dividing two numbers using the modulo method" do 
+      calc = Calculator.new
+      expect(calc.modulo(15,5)).to eql(0)
+    end
   end
 end
