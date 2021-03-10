@@ -17,6 +17,3 @@ calculator $ irb
 
  how to run a file: ruby calculator.rb
   ruby cli.rb
-
-  gemfile
-

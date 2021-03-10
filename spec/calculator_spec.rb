@@ -1,13 +1,20 @@
 require './lib/calculator.rb'
 
 describe Calculator do 
+
   before(:each) do 
     @calc = Calculator.new 
   end
 
   context "Given two numbers" do 
     it "can add the numbers using the add method" do
-      expect(@calc.add(2,3)).to eql(5)
+      sum = @calc.add(2,3)
+      expect(sum).to eql(5)
+    end
+
+    it "can add two different numbers" do 
+      sum = @calc.add(8,23) 
+      expect(sum).to eql(31)
     end
 
     it "can subtract the numbers using the subtract method" do 
